@@ -8,11 +8,11 @@ Ava
 |       | ...     |                                                              |
 |       | 1.0.0   |                                                              |
 
-## 1 Informieren
+##  Für dieses Programm braucht es Ein- und Ausgaben sowie Schlaufen, also do-while / if-else statements 
 
 ### 1.1 Ihr Projekt
 
-Number-Guessing-Game Prgramm in welchem man generierte Zahl erraten muss und das Programm reagiert darauf
+Number-Guessing-Game Prgramm in welchem man generierte Zahl erraten muss und das Programm reagiert darauf.
 
 ### 1.2 User Stories
 
@@ -40,7 +40,7 @@ Number-Guessing-Game Prgramm in welchem man generierte Zahl erraten muss und das
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
+| 1.A  |  2.9     |           |              |               |
 | ...  |       |           |              |               |
 
 Total: 
@@ -58,7 +58,7 @@ Total:
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
 | 1.A  | 25.8  |erste realisierungen,C# einarbeiten, PAP, Projektdoku., IPERKA|2-3 Lektionen|4 Lektionen +|
-| ...  |       |           |               |                   |
+| 1.B   |  1.9  |  Code anfangen          |      3-4 lektionen         |                   |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
