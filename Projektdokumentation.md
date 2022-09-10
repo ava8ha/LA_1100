@@ -21,7 +21,8 @@ Number-Guessing-Game Prgramm in welchem man generierte Zahl erraten muss und das
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    | geheime Zahl zwischen 1 und 100 generieren| Funktional|Als User möchte ich, dass das Programm eine Zahl generiert welche ich nicht weiss und erraten muss |
 | 2  | Hinweisung  | Qualität| Als User möchte ich, dass das Programm mich darauf hinweist wenn meine Eingabe zu hoch oder zu niedrig ist |
-|3 | korrektur | qualität/Funktional | Als User möchte ich, dass das Programm mich zurecht weist bei ungültigen Eingaben und mich dann weiter spielen lässt
+|3 | korrektur | qualität/Funktional | Als User möchte ich, dass das Programm mich zurecht weist bei ungültigen Eingaben und mich dann weiter spielen lässt wenn die Eingabe gültig ist.
+
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
