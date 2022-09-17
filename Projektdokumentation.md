@@ -7,7 +7,7 @@ Ava Hassani
 | 25.8  | 0.0.1   | Habe PAP erstellt, an der Projektdokumentation gearbeitet, mich mit C# vertrauter gemacht|
 | 1.9   | 0.0.2   | ersten code erstellt|                                                              |
 |8.9    | 0.0.03  | try/chatch eingefügt um ungültige Eingaben aufzufangen, Dokumentation weitergeführt | 
-|
+|15.9| 0.0.4| Fehler behoben, dass man normal weiter raten kann nach einer Fehleingabe ohne gleich zu verlieren.
 
 ##  Für dieses Programm braucht es Ein- und Ausgaben sowie Schlaufen, also do-while / if-else statements 
 
@@ -20,8 +20,11 @@ Number-Guessing-Game Prgramm in welchem man generierte Zahl erraten muss und das
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    | geheime Zahl zwischen 1 und 100 generieren| Funktional|Als User möchte ich, dass das Programm eine Zahl generiert welche ich nicht weiss und erraten muss |
-| 2  | Hinweisung  | Qualität| Als User möchte ich, dass das Programm mich darauf hinweist wenn meine Eingabe zu hoch oder zu niedrig ist |
-|3 | korrektur | qualität/Funktional | Als User möchte ich, dass das Programm mich zurecht weist bei ungültigen Eingaben und mich dann weiter spielen lässt wenn die Eingabe gültig ist.
+|2 | Anzahl Versuche| qualität| Als User möchte ich, dass ich nur eine begrenzte Anzahl an Veruche habe.
+|3| Mitteilung|Qualität| Als User möchte ich, dass mir die "Spielregenl", der Ablauf des Spiels und was meine Rolle ist bzw. was ich machen muss als User mir mittgeteilt werden|
+| 4 | Hinweisung  | Qualität| Als User möchte ich, dass das Programm mich darauf hinweist wenn meine Eingabe zu hoch oder zu niedrig ist |
+|5 | korrektur | qualität/Funktional | Als User möchte ich, dass das Programm mich zurecht weist bei ungültigen Eingaben und mich dann weiter spielen lässt wenn die Eingabe gültig ist ohne Versuche zu verbrauchen oder verlieren.|
+
 
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
@@ -46,6 +49,7 @@ Number-Guessing-Game Prgramm in welchem man generierte Zahl erraten muss und das
 | 1.A  | 15.9 | Ava | Bei Eingabe eines Buchstaben oder Wortes, hinweisung geben auf Bedingung (Nur Zahlen von 1-100| 2-3 Lektionenen|
 | 1.B  |  15.9| Ava | Nach der Hinweisung weiter spielen können | 1-2 Lektionen | 
 
+
 Total: 
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
@@ -60,8 +64,8 @@ Total:
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  | 15.9  | Ava       |2-3 Lektionen  |                   |
-| 1.B  | 15.9  | Ava       |1-2 Lektionen  |                   |
+| 1.A  | 15.9  | Ava       |2-3 Lektionen  |   3 Lektionen        |
+| 1.B  | 15.9  | Ava       |1-2 Lektionen  | 1 1/2 lektionen             |
 |1.C   |       | 
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
@@ -86,6 +90,3 @@ Total:
 
 ✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
 
-## 6 Auswerten
-
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
