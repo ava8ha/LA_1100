@@ -74,9 +74,9 @@ Total:
 
 ### 5.1 Testprotokoll
 
-| TC-№ | Datum | Resultat | Tester |
+| TC-№ | Datum | Resultat | Testergebnis |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
+| 1.1  |   |          |        |
 | ...  |       |          |        |
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
