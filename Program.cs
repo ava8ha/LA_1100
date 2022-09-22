@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Linq.Expressions;
-
 namespace LA_1100
 {
     class Zahlenspiel
@@ -15,28 +13,26 @@ namespace LA_1100
             while (gerateneZahl != geheimeZahl)
             {
                 Console.WriteLine("Zahlen rate Spiel in welchem Sie eine generierte Zahl zwischen 1 und 100 eingeben. Wenn Sie richtig sind, haben Sie gewonnen, wenn nicht, haben Sie weitere 9 Versuche. Viel Glück!");
-
-
                 do
                 {
 
-
                     do
                     {
-                        try
+                        do
                         {
-                            Console.Write("Zahl eingeben (1-100): ");
-                            eingabe = Console.ReadLine();
-                            gerateneZahl = Convert.ToInt32(eingabe);
-                            benutzerHatsGecheckt = true;
-                        }
-                        catch
-                        {
-                            Console.WriteLine("Bitte nur Zahle!");
+                            try
+                            {
+                                Console.Write("Zahl eingeben (1-100): ");
+                                eingabe = Console.ReadLine();
+                                gerateneZahl = Convert.ToInt32(eingabe);
+                                benutzerHatsGecheckt = true;
+                            }
+                            catch
+                            {
+                                Console.WriteLine("Bitte nur Zahlen!");
+                            }
 
-                        }
-
-                    } while (!benutzerHatsGecheckt);
+                        } while (!benutzerHatsGecheckt);
 
 
                         if (gerateneZahl < geheimeZahl && gerateneZahl > 0)
@@ -44,29 +40,38 @@ namespace LA_1100
                             Console.WriteLine("Zahl ist zu klein");
                         }
                         else if (gerateneZahl > geheimeZahl && gerateneZahl < 100)
-                        {
-                            Console.WriteLine("Zahl ist zu groß");
-                        }
-                        else if (gerateneZahl < 0 | gerateneZahl > 100)
+
+                            if (gerateneZahl > geheimeZahl && gerateneZahl < 100)
+                            {
+                                Console.WriteLine("Zahl ist zu groß");
+                            }
+
+                        if (gerateneZahl < 0 | gerateneZahl > 100)
                         {
                             Console.WriteLine("Zahlen zwischen 1 und 100!");
                         }
 
                         versuche = versuche + 1;
-                    
+
                         if (gerateneZahl == geheimeZahl)
                         {
-                        Console.WriteLine("Super! Du hast nur " + versuche
-                        + " Versuche benötigt");
+                            Console.WriteLine("Super! Du hast nur " + versuche + " Versuche benötigt");
                         }
-                    else
-                    {
-                        Console.WriteLine("Sie haben verloren! es wäre " + geheimeZahl + " gewesen.");
-                    }
 
+
+
+                    } while (gerateneZahl != geheimeZahl && versuche < 10);
                 } while (gerateneZahl != geheimeZahl && versuche < 10);
 
+                if (gerateneZahl != geheimeZahl)
+                {
+                    Console.WriteLine("Sie haben verloren! Es wäre " + geheimeZahl + " gewesen.");
+                }
+                break;
             }
         }
     }
+
 }
+
+
