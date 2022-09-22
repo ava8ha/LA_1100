@@ -10,7 +10,7 @@ Ava Hassani
 |15.9| 0.0.4| Fehler behoben, dass man normal weiter raten kann nach einer Fehleingabe ohne gleich zu verlieren.|
 22.9| 0.0.5|Lernbericht erstellt, Dokumentation abgeschlossen|
 
-##  Für dieses Programm braucht es Ein- und Ausgaben sowie Schlaufen, also do-while / if-else statements 
+##  Für das Programm benötigt es Ein- und Ausgaben sowie Loops.
 
 ### 1.1 Ihr Projekt
 
