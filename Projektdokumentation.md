@@ -6,7 +6,7 @@ Ava Hassani
 | ----- | ------- | ------------------------------------------------------------ |
 | 25.8  | 0.0.1   | Habe PAP erstellt, an der Projektdokumentation gearbeitet, mich mit C# vertrauter gemacht|
 | 1.9   | 0.0.2   | ersten code erstellt|                                                              |
-|8.9    | 0.0.03  | try/chatch eingefügt um ungültige Eingaben aufzufangen, Dokumentation weitergeführt | 
+|8.9    | 0.0.3  | try/chatch eingefügt um ungültige Eingaben aufzufangen, Dokumentation weitergeführt | 
 |15.9| 0.0.4| Fehler behoben, dass man normal weiter raten kann nach einer Fehleingabe ohne gleich zu verlieren.|
 22.9| 0.0.5|Lernbericht erstellt, Dokumentation abgeschlossen|
 
@@ -14,7 +14,7 @@ Ava Hassani
 
 ### 1.1 Ihr Projekt
 
-Number-Guessing-Game Prgramm in welchem man generierte Zahl erraten muss und das Programm reagiert darauf.
+Number-Guessing-Game Prgramm in welchem man generierte Zahl erraten muss und das Programm reagiert auf Eingaben.
 
 ### 1.2 User Stories
 
@@ -25,7 +25,7 @@ Number-Guessing-Game Prgramm in welchem man generierte Zahl erraten muss und das
 |3| Anweisung|Qualität| Als User möchte ich, dass mir die "Spielregenl", der Ablauf des Spiels und was meine Rolle ist bzw. was ich machen muss als User mir mittgeteilt werden|
 | 4 | Hinweisung  | Qualität| Als User möchte ich, dass das Programm mich darauf hinweist wenn meine Eingabe zu hoch oder zu niedrig ist |
 |5 | korrektur | qualität/Funktional | Als User möchte ich, dass das Programm mich zurecht weist bei ungültigen Eingaben und mich dann weiter spielen lässt wenn die Eingabe gültig ist, ohne zu verlieren.|
-|6| Versuche| qualität| Als User möchte ich, dass mir ein Versuch abgezogen wird nach jeder Fehleingabe.|
+|6| Versuche abziehen| qualität| Als User möchte ich, dass mir ein Versuch abgezogen wird nach jeder Fehleingabe.|
 
 
 
@@ -33,7 +33,8 @@ Number-Guessing-Game Prgramm in welchem man generierte Zahl erraten muss und das
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 4.1  | Programm gestartet | 3       | Zahl ist zu klein/ gross|             |4.2| TC-4.1| 45| Zahl ist zu gross/ klein|
+| 4.1  | Programm gestartet | 3       | Zahl ist zu klein/ gross|             
+|4.2| TC-4.1| 45| Zahl ist zu gross/ klein|
 | 5.1 |TC-4.2|300| Bitte nur Zahlen zwischen 1 und 100!|
 |5.2| TC-5.1|-5 | Bitte nur Zahlen zwischen 1 und 100!|
 |5.3|TC-5.2| sfkrn | Bitte nur Zahlen zwischen 1 und 100!|
@@ -75,10 +76,10 @@ Total: 2 Arbeitspakete (notiert)
 | TC-№ | Datum | Resultat | Testergebnis |
 | ---- | ----- | -------- | ------ |
 | 4.1  |22.9   | Zahl ist zu klein |Hinweisung funktioniert|
-| 4.2 |22.9|Zahl ist zu klein|      |
+| 4.2 |22.9|Zahl ist zu klein| Hinweisung funktioniert     |
 |5.1|22.9|Zahlen zwischen 1 und 100!| Korrektur funktioniert|
-|5.2|22.9|Zahlen zwischen 1 und 100!| |
-|5.3|22.9| Zahlen zwischen 1 und 100!| |
+|5.2|22.9|Zahlen zwischen 1 und 100!| Korrektur funktioniert|
+|5.3|22.9| Zahlen zwischen 1 und 100!| Korrektur funktioniert|
 |4.3 | 22.9| Zahl ist zu klein| Hinweisung funktioniert|
 |4.4|22.9| Zahl ist zu gross|Hinweisung funktioniert|
 |4.5|22.9|Zahl ist zu klein|Hinweisung funktioniert|
