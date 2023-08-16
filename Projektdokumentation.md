@@ -6,7 +6,7 @@ Ava Hassani
 | ----- | ------- | ------------------------------------------------------------ |
 | 25.8  | 0.0.1   | Habe PAP erstellt, an der Projektdokumentation gearbeitet, mich mit C# vertrauter gemacht|
 | 1.9   | 0.0.2   | ersten code erstellt|                                                              |
-|8.9    | 0.0.3  | try/chatch eingefügt um ungültige Eingaben aufzufangen, Dokumentation weitergeführt | 
+|8.9    | 0.0.3  | try/catch eingefügt um ungültige Eingaben aufzufangen, Dokumentation weitergeführt | 
 |15.9| 0.0.4| Fehler behoben, dass man normal weiter raten kann nach einer Fehleingabe ohne gleich zu verlieren.|
 22.9| 0.0.5|Lernbericht erstellt, Dokumentation abgeschlossen|
 
